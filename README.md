@@ -4,7 +4,7 @@
 
 ### Allows Anonymous read and write or only read access 
 
-Add '.json' at the end of firebase database url if you see `null` or `data` in response that means database is insecure and anyone can read/write or read data of database.
+Add '.json' at the end of database url if you see `null` or `<data>` in response that means database is insecure and anyone can read/write into database.
 
 For example: https://insecure-firebase.firebaseio.com/.json returns `null`
 
